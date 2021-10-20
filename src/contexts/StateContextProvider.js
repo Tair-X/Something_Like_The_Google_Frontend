@@ -25,6 +25,9 @@ export const StateContextProvider = ({ children }) => {
     setLoading(false);
   };
 
+
+
+
   return (
     <StateContext.Provider value={{ getResults, results, searchTerm, setSearchTerm, loading }}>
       {children}
